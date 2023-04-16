@@ -1,7 +1,7 @@
 /* From official tutorial: http://wiki.ros.org/navigation/Tutorials/Writing%20A%20Global%20Path%20Planner%20As%20Plugin%20in%20ROS */
 
 #include <pluginlib/class_list_macros.h>
-#include "my_simple_planner.h"
+#include "global_planner/my_simple_planner.h"
 
 //register this planner as a BaseGlobalPlanner plugin
 PLUGINLIB_EXPORT_CLASS(global_planner::SimplePlanner, nav_core::BaseGlobalPlanner)
