@@ -33,9 +33,6 @@
       <nav_core plugin="${prefix}/bgp_plugin.xml" />
   </export>
 
-</package>
-
-<package format="2">
   <name>simple_planner</name>
   <version>0.0.1</version>
   <description>
