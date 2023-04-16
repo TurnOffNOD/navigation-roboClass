@@ -34,3 +34,35 @@
   </export>
 
 </package>
+
+<package format="2">
+  <name>simple_planner</name>
+  <version>0.0.1</version>
+  <description>
+     A class assignment.
+  </description>
+  <maintainer email="tongxian22@mails.ucas.ac.cn">Tong Xian!!</maintainer>
+  <license>BSD</license>
+
+  <author>Tong Xian</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>angles</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+
+  <depend>costmap_2d</depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_core</depend>
+  <depend>nav_msgs</depend>
+  <depend>navfn</depend>
+  <depend>pluginlib</depend>
+  <depend>roscpp</depend>
+  <depend>tf2_ros</depend>
+
+  <export>
+      <nav_core plugin="${prefix}/my_simple_planner.xml" />
+  </export>
+
+</package>

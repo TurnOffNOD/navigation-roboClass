@@ -1,0 +1,7 @@
+<library path="lib/libmy_simple_planner">
+  <class name="global_planner/SimplePlanner" type="global_planner::SimplePlanner" base_class_type="nav_core::BaseGlobalPlanner">
+    <description>
+      A class assignment.
+    </description>
+  </class>
+</library>
